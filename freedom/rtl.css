@@ -1,0 +1,281 @@
+caption,
+th,
+td {
+    text-align: right;
+}
+
+li > ul,
+li > ol {
+    margin: 0 10px 0 0;
+}
+
+blockquote {
+    padding: 30px 45px 20px 30px;
+}
+
+blockquote p {
+    padding-right: 40px;
+}
+
+blockquote p:before {
+    right: -27px;
+}
+
+blockquote cite {
+    float: left;
+}
+
+input.s:focus {
+    padding-right: 10px;
+}
+
+#search-form input[type=\"submit\"]{margin-right:-8px;}
+ .alignleft {
+    float: right;
+    margin-left: 30px;
+}
+
+.alignright {
+    float: left;
+    margin-right: 30px;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.small-info-text {
+    float: right;
+    padding-left: 15px;
+}
+
+#search-form span {
+    margin-right: -2px;
+}
+
+#masthead .search-wrap span {
+    left: 1px;
+}
+
+.main-navigation ul li ul,
+.main-navigation ul li:hover ul ul,
+.main-navigation ul ul li:hover ul ul,
+.main-navigation ul ul ul li:hover ul ul,
+.main-navigation ul ul ul ul li:hover ul ul {
+    margin-right: -1px;
+}
+
+.main-navigation ul li ul li {
+    float: right;
+    text-align: right;
+}
+
+.main-navigation ul li ul li ul {
+    right: 200px;
+}
+
+.site-header .menu-toggle:before {
+    padding-left: 10px;
+}
+
+.main-small-navigation ul ul a {
+    padding-right: 60px;
+}
+
+.main-small-navigation ul ul ul a {
+    padding-right: 80px;
+}
+
+#featured-slider figure {
+    float: right;
+}
+
+#featured-slider .entry-container {
+    float: left;
+}
+
+.slider-nav a.slide-next {
+    float: left;
+    margin-left: -50px;
+}
+
+.slider-nav a.slide-prev {
+    float: right;
+    margin-right: -50px;
+}
+
+.tg-one-half {
+    float: right;
+}
+
+.tg-one-half-last {
+    float: left;
+}
+
+.default-wp-page .previous {
+    float: right;
+}
+
+.default-wp-page .next {
+    float: left;
+}
+
+#comments i {
+    padding-left: 10px;
+}
+
+.avatar {
+    float: right;
+}
+
+.comments-area .comment-edit-link,
+.comments-area .comment-permalink,
+.comments-area .comment-date-time,
+.comments-area .comment-author-link {
+    margin-right: 100px;
+}
+
+.comments-area .comment-author-link span {
+    margin-right: 10px;
+}
+
+.comments-area article header .comment-edit-link:before {
+    padding-left: 10px;
+}
+
+.comment ul,
+.comment ol {
+    margin: 0 20px 20px 0;
+}
+
+.comment .comment-reply-link {
+    float: left;
+}
+
+.comment .comment-reply-link:before {
+    padding-left: 10px;
+}
+
+.comment-list .children {
+    margin-right: 20px;
+}
+
+.nav-previous a {
+    float: right;
+}
+
+.nav-next a {
+    float: left;
+}
+
+#respond h3#reply-title #cancel-comment-reply-link {
+    margin-right: 1rem;
+}
+
+#secondary .widget ul ul,
+#colophon .widget ul ul {
+    padding-right: 10px;
+}
+
+.footer-widgets-area p {
+    text-align: right;
+}
+
+.footer-socket-wrapper .copyright {
+    float: right;
+}
+
+a#scroll-up {
+    left: 40px;
+    right: auto;
+}
+
+#primary {
+    float: right;
+}
+
+#secondary {
+    float: left;
+}
+
+.left-sidebar #primary {
+    float: left;
+}
+
+.left-sidebar #secondary {
+    float: right;
+}
+
+.entry-content ul,
+.entry-content ol {
+    padding: 0 35px 0 0;
+}
+
+.entry-meta .byline i,
+.entry-meta .cat-links i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.entry-meta .byline {
+    margin-left: 25px;
+}
+
+.entry-meta .post-format {
+    left: -64px;
+}
+
+.entry-meta .post-format i {
+    padding: 12px 8px 8px 8px;
+}
+
+.entry-meta .posted-on,
+.entry-meta .comments-link,
+.entry-meta .edit-link,
+.entry-meta .tag-links {
+    margin-left: 25px;
+}
+
+.entry-meta .posted-on i,
+.entry-meta .comments-link i,
+.entry-meta .edit-link i,
+.entry-meta .tag-links i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tg-two-column-post-left {
+    float: right;
+}
+
+.tg-two-column-post-right {
+    float: left;
+}
+
+@media screen and (max-width:1190px) {
+    .slider-nav {
+        left: 0;
+    }
+    .slider-nav a.slide-prev {
+        margin-right: 0;
+    }
+    .slider-nav a.slide-next {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-menu-toggle {
+        left: 32px;
+    }
+    .tg-one-half-last {
+        float: left;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    article .post-box {
+        margin-left: 0;
+    }
+}
